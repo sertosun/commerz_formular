@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(33, 105, 98);
+  color: white;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 900px;
+  margin: auto;
+  border: 3px solid rgb(255, 255, 36);
+  border-radius: 20px;
+  text-align: center;
+}
+
+h2 {
+  color: rgb(255, 255, 36);
+}
+
+.logo {
+  width: 200px;
+  background-color: rgb(33, 105, 98);
+}
+
+label {
+  font-size: 30px;
+}
+
+input[type="text"],
+[type="password"],
+[type="submit"] {
+  height: 30px;
+  border-radius: 20px;
+  border: none;
+  margin: 15px 0;
+}
+
+input[type="submit"] {
+  width: 200px;
+}
